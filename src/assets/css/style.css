@@ -1,0 +1,265 @@
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+:root {
+    /**
+     * Colors
+     */
+    --main-color: ;
+    --other-color: ;
+    --bg-color: ;
+    --second-bg-color: ;
+    --text-color: ;
+    --second-color: ;
+    --border-color: ;
+
+    /**
+     * TYPOGRAPHY
+     */
+
+    /* Font size */
+    --fs-base: 14px;
+    --fs-display-large: 3rem;
+    --fs-display-medium: 2.8rem;
+    --fs-display-small: 2.5rem;
+    --fs-headline-small: 2.3rem;
+    --fs-title-large: 2.2rem;
+    --fs-title-medium: 1.6rem;
+    --fs-title-small: 1.4rem;
+    --fs-body-large: 1.6rem;
+    --fs-body-medium: 1.4rem;
+    --fs-body-small: 1.2rem;
+    --fs-label-large: 1.4rem;
+    --fs-label-medium: 1.2rem;
+    --fs-label-small: 1.1rem;
+
+    /* Line height */
+    --lh-display-large: 4rem;
+    --lh-display-medium: 4rem;
+    --lh-display-small: 4rem;
+    --lh-headline-small: 4rem;
+    --lh-title-large: 3rem;
+    --lh-title-medium: 2.5rem;
+    --lh-title-small: 2rem;
+    --lh-body-large: 2.5rem;
+    --lh-body-medium: 2rem;
+    --lh-body-small: 2rem;
+    --lh-label-large: 2.5rem;
+    --lh-label-medium: 1.5rem;
+    --lh-label-small: 1.5rem;
+
+    /* Font weight */
+    --fw-regular: 400;
+    --fw-medium: 600;
+    --fw-bold: 800;
+
+    /**
+     * FONT FAMILY
+     */
+  
+}
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ol,
+ul,
+menu {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+li {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+a,
+img,
+span,
+label,
+input,
+select,
+button,
+textarea { display: block; }
+
+a {
+    font-family: var() !important;
+    color: var() !important;
+    text-decoration: none;
+}
+
+img { height: auto; }
+
+input,
+select,
+button,
+textarea {
+    font-family: var() !important;
+    background: none;
+    border: none;
+}
+
+input,
+select,
+textarea {
+    box-shadow: 0 0 0 transparent !important;
+    outline: none;
+    width: 100%;
+}
+
+textarea { resize: none; }
+
+input::placeholder { color: var() !important; }
+
+select::placeholder { color: var() !important; }
+
+textarea::placeholder { color: var() !important; }
+
+button { cursor: pointer; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: var() !important;
+    background-color: var();
+    font-size: var(--fs-base);
+    color: var();
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: bolder;
+}
+
+p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*-----------------------------------*\
+  #DUBLICATE ITEMS
+\*-----------------------------------*/
+
+.section {}
+
+.container {
+    padding-inline: 16px !important;
+    margin-inline: auto;
+}
+
+.img-cover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.img-holder {
+    background-color: var() !important;
+    overflow: hidden;
+}
+
+.main { min-height: 100vh; }
+
+/*-----------------------------------*\
+  #TYPOGRAPHY
+\*-----------------------------------*/
+
+.display-large {
+    font-size: var(--fs-display-large);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-display-large);
+}
+
+.display-medium {
+    font-size: var(--fs-display-medium);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-display-medium);
+}
+
+.display-small {
+    font-size: var(--fs-display-small);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-display-small);
+}
+
+.headline-small {
+    font-size: var(--fs-headline-small);
+    font-weight: var(--weight-medium);
+    line-height: var(--lh-headline-small);
+}
+
+.title-large {
+    font-size: var(--fs-title-large);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-title-large);
+}
+
+.title-medium {
+    font-size: var(--fs-title-medium);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-title-medium);
+    letter-spacing: var(--ls-p-015);
+}
+
+.title-small {
+    font-size: var(--fs-title-small);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-title-small);
+}
+
+.body-large {
+    font-size: var(--fs-body-large);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-body-large);
+}
+
+.body-medium {
+    font-size: var(--fs-body-medium);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-body-medium);
+}
+
+.body-small {
+    font-size: var(--fs-body-small);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-body-small);
+}
+
+.label-large {
+    font-size: var(--fs-label-large);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-label-medium);
+}
+
+.label-medium {
+    font-size: var(--fs-label-medium);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-label-medium);
+}
+
+.label-small {
+    font-size: var(--fs-label-small);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-label-small);
+}
