@@ -35,19 +35,19 @@
     --fs-label-small: 1.1rem;
 
     /* Line height */
-    --lh-display-large: 4rem;
-    --lh-display-medium: 4rem;
-    --lh-display-small: 4rem;
-    --lh-headline-small: 4rem;
-    --lh-title-large: 3rem;
-    --lh-title-medium: 2.5rem;
-    --lh-title-small: 2rem;
-    --lh-body-large: 2.5rem;
+    --lh-display-large: 3.6rem;
+    --lh-display-medium: 3.4rem;
+    --lh-display-small: 3rem;
+    --lh-headline-small: 2.8rem;
+    --lh-title-large: 2.6rem;
+    --lh-title-medium: 2rem;
+    --lh-title-small: 1.8rem;
+    --lh-body-large: 2.2rem;
     --lh-body-medium: 2rem;
-    --lh-body-small: 2rem;
-    --lh-label-large: 2.5rem;
+    --lh-body-small: 1.6rem;
+    --lh-label-large: 1.8rem;
     --lh-label-medium: 1.5rem;
-    --lh-label-small: 1.5rem;
+    --lh-label-small: 1.4rem;
 
     /* Font weight */
     --fw-regular: 400;
