@@ -129,6 +129,10 @@ textarea::placeholder { color: var() !important; }
 
 button { cursor: pointer; }
 
+form { width: 100%; }
+
+div { width: auto; }
+
 html { scroll-behavior: smooth; }
 
 body {
