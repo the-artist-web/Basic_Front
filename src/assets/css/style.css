@@ -29,10 +29,10 @@
     --fs-title-small: 1.4rem;
     --fs-body-large: 1.6rem;
     --fs-body-medium: 1.4rem;
-    --fs-body-small: 1.2rem;
-    --fs-label-large: 1.4rem;
-    --fs-label-medium: 1.2rem;
-    --fs-label-small: 1.1rem;
+     --fs-body-small: 1.2rem;
+    --fs-label-large: 1.2rem;
+    --fs-label-medium: 1.1rem;
+    --fs-label-small: 1rem;
 
     /* Line height */
     --lh-display-large: 3.6rem;
